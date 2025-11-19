@@ -9,7 +9,7 @@ import {
     OmitType,
 } from '@nestjs/swagger';
 import { AuthService } from './auth.service';
-import { UsuarioDto } from 'src/dtos/usuario.dto';
+import { UsuarioDto } from '../dtos/usuario.dto';
 
 class LoginForm {
     @ApiProperty({ name: 'email', type: 'string' })
